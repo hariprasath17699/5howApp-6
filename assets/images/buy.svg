@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="177" viewBox="0 0 300 177">
+  <defs>
+    <filter id="Rectangle_116" x="0" y="0" width="300" height="177" filterUnits="userSpaceOnUse">
+      <feOffset dx="13" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_16">
+      <feOffset dx="4" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-63.5 -556.5)">
+    <g transform="matrix(1, 0, 0, 1, 63.5, 556.5)" filter="url(#Rectangle_116)">
+      <path id="Rectangle_116-2" data-name="Rectangle 116" d="M50,0H241a14,14,0,0,1,14,14V79a53,53,0,0,1-53,53H14A14,14,0,0,1,0,118V50A50,50,0,0,1,50,0Z" transform="translate(9.5 10.5)" fill="#00b141"/>
+    </g>
+    <g data-type="innerShadowGroup">
+      <circle id="Ellipse_16-2" data-name="Ellipse 16" cx="7" cy="7" r="7" transform="translate(100 591)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 63.5, 556.5)" filter="url(#Ellipse_16)">
+        <circle id="Ellipse_16-3" data-name="Ellipse 16" cx="7" cy="7" r="7" transform="translate(36.5 34.5)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
